@@ -120,7 +120,3 @@ class Algorithms:
         pass
 
 
-print(Algorithms.sum_of_array([2, 4, 5]))
-print(Algorithms.number_of_elements([3]))
-print(Algorithms.find_max([-10, -9, -12, -4, -3, -10]))
-print(Algorithms.quick_sort([10, 9, 12, 4, 3, 10]))
