@@ -1,4 +1,4 @@
-import the_byte_of_python.module as module
+from . import module
 import sys
 
 def total(a, *numbers, **phonebook):
