@@ -27,4 +27,4 @@ def cm_to_mm(cm):
 
 print(features['sepal length (cm)'].map(cm_to_mm).head())
 
-# With apply() we can fo the same but not only for one column but also to many by typing the, splitting by commas
+# With apply() we can fo the same but not only for one column but also to many by typing the colums, splitting by commas

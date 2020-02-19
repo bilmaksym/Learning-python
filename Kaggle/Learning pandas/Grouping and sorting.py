@@ -3,7 +3,7 @@ import pandas as pd
 reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
 pd.set_option("display.max_rows", 5)
 
-# For example we want to get te\he cheapest wine in each point value category
+# For example we want to get the cheapest wine in each point value category
 reviews.groupby('points').price.min()
 
 # Here's one way of selecting the name of the first wine reviewed from each winery in the dataset:
